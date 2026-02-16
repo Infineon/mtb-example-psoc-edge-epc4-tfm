@@ -12,14 +12,14 @@ This code example has a three project structure - CM33 secure, CM33 non-secure, 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm)
 
-[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDIwNzUiLCJTcGVjIE51bWJlciI6IjAwMi00MjA3NSIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBCYXNpYyBUcnVzdGVkIEZpcm13YXJlLU0gKFRGLU0pIGFwcGxpY2F0aW9uIOKAkyBFUEM0IiwicmlkIjoidGVqYXMua2FkZ2FvbmthckBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjIuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDIwNzUiLCJTcGVjIE51bWJlciI6IjAwMi00MjA3NSIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBCYXNpYyBUcnVzdGVkIEZpcm13YXJlLU0gKFRGLU0pIGFwcGxpY2F0aW9uIOKAkyBFUEM0IiwicmlkIjoidGVqYXMua2FkZ2FvbmthckBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjIuMi4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 See the [Design and implementation](docs/design_and_implementation.md) for the functional description of this code example.
 
 
 ## Requirements
 
-- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.6 or later (tested with v3.6)
+- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.7 or later (tested with v3.7)
 - Board support package (BSP) minimum required version for:
    - KIT_PSE84_EVAL_EPC4: v1.0.0
 - Programming language: C
@@ -111,6 +111,7 @@ Document title: *CE242075* – *PSOC&trade; Edge MCU: Basic Trusted Firmware-M (
  1.x.0   | New code example <br> Early access release
  2.0.0   | GitHub release
  2.1.0   | Update PPC configuration
+ 2.2.0   | Added MTB_SUPPORTED_TOOLCHAINS variable for automated build systems <br> Updated design files to fix ModusToolbox&trade; v3.7 build warnings
 <br>
 
 
